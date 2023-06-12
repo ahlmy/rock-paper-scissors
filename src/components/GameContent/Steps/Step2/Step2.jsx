@@ -84,7 +84,7 @@ const Step2 = ({ Component }) => {
     };
   }, []);
   useEffect(() => {
-    if (!showResult) return;
+    if (!showResult || tie) return;
     if (didWin) {
       const elem = userPickRef.current.querySelector("div");
       elem.insertAdjacentHTML("afterbegin", `<div class="bg-effect"></div>`);
