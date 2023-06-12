@@ -1,3 +1,3 @@
-Rock Paper Scissors + Rock Paper Scissors Lizard Spock
+# Rock Paper Scissors + Rock Paper Scissors Lizard Spock
 
-[WEBSITE](https://rock-paper-scissors-ahy.netlify.app/)
+# [WEBSITE](https://rock-paper-scissors-ahy.netlify.app/)
