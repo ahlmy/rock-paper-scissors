@@ -1,0 +1,44 @@
+.content {
+  width: 60%;
+  border: solid 3px var(--header-outline);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.scoreContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.img {
+  height: 75px;
+  width: auto;
+}
+
+.title {
+  color: var(--score-text);
+}
+
+.score {
+  color: var(--dark-text);
+}
+
+@media screen and (max-width: 900px) {
+  .content {
+    width: 90%;
+  }
+  .img {
+    height: 60px;
+  }
+  .scoreContainer {
+    padding: 0.5rem 1rem;
+  }
+}
